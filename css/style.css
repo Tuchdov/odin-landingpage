@@ -37,3 +37,7 @@ body {
     
     
 }
+
+.middle1{
+    display: flex;
+}
