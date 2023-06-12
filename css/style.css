@@ -1,0 +1,39 @@
+.header, .footer,
+.middle1{
+    background:#1F2937;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header.title {
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9faf8;
+}
+
+body {
+    display:flex;
+    flex-direction: column;}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 4px;
+
+}
+
+.right-links {
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
