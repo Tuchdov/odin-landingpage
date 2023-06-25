@@ -1,6 +1,7 @@
 .header, .footer,
 .middle1{
     background:#1F2937;
+    background-size: cover;
 }
 
 li {
@@ -21,12 +22,13 @@ a {
 
 body {
     display:flex;
-    flex-direction: column;}
+    flex-direction: column;
+    margin: 0;}
 
 .header {
     display: flex;
     justify-content: space-between;
-    
+    flex:1;
     padding: 8px;
 
 }
@@ -47,8 +49,9 @@ body {
 .middle1{
     display: flex;
     justify-content: center;
-
-    padding: 16px;
+    flex:1;
+    padding: 48px;
+    margin: 0;
    
 }
 
@@ -56,6 +59,8 @@ body {
     display: flex;
     flex-direction: column;
     padding: 16px;
+    flex:1;
+    
 }
 
 .middle1.text{
@@ -75,6 +80,8 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex:1;
+    padding: 4px;
 }
 
 .middle2.title {
@@ -93,14 +100,43 @@ body {
 .middle2.container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 52px;
 
 }
 
+.middle2 .text{
+    padding: 4px;
+    margin-bottom: 4px;
+}
 
-.middle4 {
+
+.middle3 {
     display: flex;
     flex-direction: column;
+    background: #e5e7eb;
+    font-size: 36px;
+    padding: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
+
+.middle3 .text {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    padding: 16px;
 }
 
 #rcorners {
@@ -109,3 +145,4 @@ body {
     width: 250px;
     height: 250px;
 }
+
