@@ -31,6 +31,12 @@ body {
 
 }
 
+.footer {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    color: #e5e7eb;
+}
 .right-links {
     display: flex;
     justify-content: space-evenly;
@@ -40,6 +46,9 @@ body {
 
 .middle1{
     display: flex;
+    justify-content: center;
+
+    padding: 16px;
    
 }
 
@@ -59,4 +68,44 @@ body {
     font-size: 48px;
     font-weight: 800;
     color: #F9faf8;
+    font-weight: 900;
+}
+
+.middle2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.middle2.title {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 16px;
+}
+
+.middle2.info {
+    gap: 52px;
+
+}
+
+.middle2.container {
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+
+}
+
+
+.middle4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#rcorners {
+    border-radius: 15px;
+    border: 2px solid dodgerblue;
+    width: 250px;
+    height: 250px;
 }
